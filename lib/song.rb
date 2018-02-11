@@ -22,6 +22,6 @@ class Song
   end
 
   def self.artists  # unique array - delete any duplicates
-    @@artists
+    @@artists.to_set
   end
 end
