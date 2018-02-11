@@ -21,7 +21,7 @@ class Song
     @@count
   end
 
-  def self.artists  # unique array - delete any repeats
+  def self.artists  # unique array - delete any duplicates
     @@artists
   end
 end
