@@ -31,11 +31,7 @@ class Song
 
   def self.genre_count  # {"rap" => 5, "rock" => 1, "country" => 3}
     @@genres.each do |genre|
-      if @@genre_count[genre].nil?
-        @@genre_count[genre] = 1
-      else
-        @@genre_count[genre] += 1
-      end
+     @@genre_count[genre].nil? @@genre_count[genre] = 1 : @@genre_count[genre] += 1
     end
     @@genre_count
   end
