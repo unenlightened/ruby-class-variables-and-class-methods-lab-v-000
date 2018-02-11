@@ -28,4 +28,8 @@ class Song
   def self.genres
     @@genres.to_set
   end
+
+  def self.genre_count
+    @@genre_count 
+  end
 end
