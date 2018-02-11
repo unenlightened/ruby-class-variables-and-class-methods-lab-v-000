@@ -1,6 +1,7 @@
 def Song
   attr_accessor :name, :artist, :genre
 
+  @@artists = []
   @@genres = []
   @@count = 0
   @@artist_count = {}
@@ -12,9 +13,3 @@ def Song
     @genre = genre
   end
 end
-
-:@@artists, [])
-Song.class_variable_set(:@@genres, [])
-Song.class_variable_set(:@@count, 0)
-Song.class_variable_set(:@@artist_count, {})
-Song.class_variable_set(:@@genre_count, {})
