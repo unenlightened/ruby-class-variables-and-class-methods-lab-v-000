@@ -1,4 +1,4 @@
-def Song
+def Song(name, artist, genre)
   attr_accessor :name, :artist, :genre
 
   @@count = 0
