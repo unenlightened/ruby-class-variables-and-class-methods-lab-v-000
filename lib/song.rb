@@ -42,5 +42,6 @@ class Song
       @@artist[artist] ||= 0
       @@artist[artist] += 1
     end
+    @@artists
   end
 end
