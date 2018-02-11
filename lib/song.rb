@@ -1,4 +1,4 @@
-def Song(name, artist, genre)
-  def initialize
+def Song
+  def initialize(name, artist, genre)
   end
 end
